@@ -1,0 +1,168 @@
+
+:root {
+    --background-color: #efe7e5; /* Create variable in CSS */
+    --text-color: black;
+    --section-color: white;
+    --darkmode: false;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0; /* margin Top/Bottom Right/Left */
+    color: var(--text-color);
+}
+
+
+/* TOP PAGE */
+header {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: auto;
+    background-color: white;
+    justify-items: center;
+    border-bottom: 10px solid #4CAF50;
+
+}
+
+.header-left {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+    width: 25%;
+    padding-right: 25%;
+}
+
+.header-right {
+    display: flex;
+    width: 40%;
+}
+
+.header-right img {
+    border-radius: 50%;
+    scale: 50%;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: -25px;
+    color: #4CAF50;
+}
+header h2 {
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+
+/* MAIN STRUCTURE */
+.container {
+    display:flex;
+    flex-direction: row;
+    background-color: #E6E6E6;
+    justify-content: center;
+}
+
+.box-left {
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 40px;
+    box-shadow: 0px 5px 5px #4CAF50;
+}
+
+.top-box {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-bottom: 1px solid #E6E6E6;
+
+}
+
+.panel-box {
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.box-center {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 40px;
+    box-shadow: 0px 5px 5px #4CAF50;
+}
+
+.box-right {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 40px;
+    box-shadow: 0px 5px 5px #4CAF50;
+}
+
+.box-btn {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 5px 5px #4CAF50;
+}
+
+footer {
+    text-align: center;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+
+/* NAVBAR LIEN */
+navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+    margin-top: 25px;
+}
+
+navbar a {
+    color: #4CAF50;
+}
+
+.material-symbols-outlined {
+    font-size: 50px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+
+/* BTN RDV */
+.btn_rdv {
+    background-color: #4CAF50; /* Couleur de fond */
+    border: none; /* Pas de bordure */
+    color: white; /* Couleur du texte */
+    padding: 15px 32px; /* Espacement du texte à l'intérieur du bouton */
+    text-align: center; /* Alignement horizontal du texte */
+    text-decoration: none; /* Pas de soulignement pour le texte */
+    display: inline-block; /* Affichage en ligne */
+    font-size: 16px; /* Taille de police */
+    margin: 4px 2px; /* Marge entre les boutons */
+    cursor: pointer; /* Curseur de la souris */
+    border-radius: 8px; /* Coins arrondis */
+}
+
+.btn_rdv:hover {
+    background-color: #555555;
+    color: white;
+    border-inline: 10px solid #4CAF50;
+    /* changer la couleur lorsqu'il est survolé */
+}
